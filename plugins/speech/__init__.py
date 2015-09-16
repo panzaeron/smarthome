@@ -50,12 +50,16 @@ class HTTPHandler(lib.connection.Stream):
                     parse_result = parsedText.parse_message()
                     if parse_result[1]:
                         self.send(bytes("HTTP/1.1 200 OK\r\nContent-type: text/html; charset=UTF-8\r\n\r\n%s" % parse_result[1][2], encoding="utf-8"), close=True)
+                        self.close()
                     else:
                         self.send(bytes("HTTP/1.1 200 OK\r\nContent-type: text/html; charset=UTF-8\r\n\r\n%s" % parse_result[0], encoding="utf-8"), close=True)
+                        self.close()
                 else:
                         self.send(bytes("HTTP/1.1 200 OK\r\nContent-type: text/html; charset=UTF-8\r\n\r\n%s" % dictError['error'], encoding="utf-8"), close=True)
+                        self.close()
             else:
                 self.send(b'HTTP/1.1 400 Bad Request\r\n\r\n', close=True)
+                self.close()
             break
 
 class HTTPDispatcher(lib.connection.Server):

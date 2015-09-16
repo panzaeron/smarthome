@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<data version="1.28.0">
+  <trigger type="plugin_event">
+    <useDefaultName>true</useDefaultName>
+    <name>Plugin Ereignis: AutoVoice No Match </name>
+    <pluginLabel>AutoVoice No Match</pluginLabel>
+    <pluginBlurb></pluginBlurb>
+    <pluginPackage>com.joaomgcd.autovoice</pluginPackage>
+    <pluginClass>com.joaomgcd.autovoice.activity.ActivityConfigNoCommandsMatchedEvent</pluginClass>
+    <pluginBundle>AwAAAAgDAABCTkRMCAAAADkAAABuAGUAdAAuAGQAaQBuAGcAbABpAHMAYwBoAC4AYQBuAGQAcgBv
+AGkAZAAuAHQAYQBzAGsAZQByAC4AZQB4AHQAcgBhAHMALgBWAEEAUgBJAEEAQgBMAEUAXwBSAEUA
+UABMAEEAQwBFAF8ASwBFAFkAUwAAAAAAAABAAAAAYwBvAG4AZgBpAGcAYwBvAG0AbQBhAG4AZABp
+AGQAIABjAG8AbgBmAGkAZwBsAGEAcwB0AGMAbwBtAG0AYQBuAGQAIABwAGwAdQBnAGkAbgBpAG4A
+cwB0AGEAbgBjAGUAaQBkACAAcABsAHUAZwBpAG4AdAB5AHAAZQBpAGQAIAAAAAAADAAAAHAAbAB1
+AGcAaQBuAHQAeQBwAGUAaQBkAAAAAAAAAAAAOgAAAGMAbwBtAC4AagBvAGEAbwBtAGcAYwBkAC4A
+YQB1AHQAbwB2AG8AaQBjAGUALgBpAG4AdABlAG4AdAAuAEkAbgB0AGUAbgB0AE4AbwBDAG8AbQBt
+AGEAbgBkAHMATQBhAHQAYwBoAGUAZABFAHYAZQBuAHQAAAAAAA0AAABOAG8ATQBhAHQAYwBoAEkA
+bgB2AGUAcgB0AAAACQAAAAAAAAASAAAATABhAHMAdABDAG8AbQBtAGEAbgBkAEkAZABSAGUAZwBl
+AHgAAAAAAAkAAAAAAAAAEQAAAGMAbwBuAGYAaQBnAGwAYQBzAHQAYwBvAG0AbQBhAG4AZAAAAP//
+//8QAAAAcABsAHUAZwBpAG4AaQBuAHMAdABhAG4AYwBlAGkAZAAAAAAAAAAAACQAAAA2ADUAOQA3
+AGUANQA2ADAALQAyADYANwA2AC0ANAAzADIAYgAtAGEAOAAxAGYALQBmADkANAAxAGEANwA3ADQA
+ZQA0ADQAZQAAAAAADwAAAGMAbwBuAGYAaQBnAGMAbwBtAG0AYQBuAGQAaQBkAAAA/////xMAAABM
+AGEAcwB0AEMAbwBtAG0AYQBuAGQASQBkAEkAbgB2AGUAcgB0AAAACQAAAAAAAAA=
+</pluginBundle>
+    <pluginBundleData>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwABRgAKbG9hZEZhY3RvcnhwP0AAAHcI
+AAAAEAAAAAh0ABNMYXN0Q29tbWFuZElkSW52ZXJ0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc
++u4CAAFaAAV2YWx1ZXhwAHQAOW5ldC5kaW5nbGlzY2guYW5kcm9pZC50YXNrZXIuZXh0cmFzLlZB
+UklBQkxFX1JFUExBQ0VfS0VZU3QAQGNvbmZpZ2NvbW1hbmRpZCBjb25maWdsYXN0Y29tbWFuZCBw
+bHVnaW5pbnN0YW5jZWlkIHBsdWdpbnR5cGVpZCB0AA9jb25maWdjb21tYW5kaWRwdAAMcGx1Z2lu
+dHlwZWlkdAA6Y29tLmpvYW9tZ2NkLmF1dG92b2ljZS5pbnRlbnQuSW50ZW50Tm9Db21tYW5kc01h
+dGNoZWRFdmVudHQAEHBsdWdpbmluc3RhbmNlaWR0ACQ2NTk3ZTU2MC0yNjc2LTQzMmItYTgxZi1m
+OTQxYTc3NGU0NGV0ABFjb25maWdsYXN0Y29tbWFuZHB0AA1Ob01hdGNoSW52ZXJ0cQB+AAR0ABJM
+YXN0Q29tbWFuZElkUmVnZXhxAH4ABHg=
+</pluginBundleData>
+    <configured>true</configured>
+    <relevantVariables>"%err
+Error Code
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%errmsg
+Error Message
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%avcomms()
+All of the matched commands
+All of the matched commands","%avsource
+Source of the Voice Command. Can be normal, continuous, test or googlenow
+Source of the Voice Command. Can be normal, continuous, test or googlenow"</relevantVariables>
+  </trigger>
+  <trigger type="plugin">
+    <useDefaultName>true</useDefaultName>
+    <name>Plugin: AutoVoice No Match  wird erfüllt</name>
+    <pluginLabel>AutoVoice No Match</pluginLabel>
+    <pluginBlurb></pluginBlurb>
+    <pluginPackage>com.joaomgcd.autovoice</pluginPackage>
+    <pluginClass>com.joaomgcd.autovoice.activity.ActivityConfigNoCommandsMatched</pluginClass>
+    <pluginBundle>AwAAAPwCAABCTkRMCAAAADkAAABuAGUAdAAuAGQAaQBuAGcAbABpAHMAYwBoAC4AYQBuAGQAcgBv
+AGkAZAAuAHQAYQBzAGsAZQByAC4AZQB4AHQAcgBhAHMALgBWAEEAUgBJAEEAQgBMAEUAXwBSAEUA
+UABMAEEAQwBFAF8ASwBFAFkAUwAAAAAAAABAAAAAYwBvAG4AZgBpAGcAYwBvAG0AbQBhAG4AZABp
+AGQAIABjAG8AbgBmAGkAZwBsAGEAcwB0AGMAbwBtAG0AYQBuAGQAIABwAGwAdQBnAGkAbgBpAG4A
+cwB0AGEAbgBjAGUAaQBkACAAcABsAHUAZwBpAG4AdAB5AHAAZQBpAGQAIAAAAAAADAAAAHAAbAB1
+AGcAaQBuAHQAeQBwAGUAaQBkAAAAAAAAAAAANQAAAGMAbwBtAC4AagBvAGEAbwBtAGcAYwBkAC4A
+YQB1AHQAbwB2AG8AaQBjAGUALgBpAG4AdABlAG4AdAAuAEkAbgB0AGUAbgB0AE4AbwBDAG8AbQBt
+AGEAbgBkAHMATQBhAHQAYwBoAGUAZAAAAA0AAABOAG8ATQBhAHQAYwBoAEkAbgB2AGUAcgB0AAAA
+CQAAAAAAAAASAAAATABhAHMAdABDAG8AbQBtAGEAbgBkAEkAZABSAGUAZwBlAHgAAAAAAAkAAAAA
+AAAAEQAAAGMAbwBuAGYAaQBnAGwAYQBzAHQAYwBvAG0AbQBhAG4AZAAAAP////8QAAAAcABsAHUA
+ZwBpAG4AaQBuAHMAdABhAG4AYwBlAGkAZAAAAAAAAAAAACQAAABhADQAYgA1AGEAMABjADkALQA0
+ADEAMQBkAC0ANABmADcAYQAtAGIANABlADgALQA5AGIAYQAxADYAYgAyAGQANwA5ADEAZAAAAAAA
+DwAAAGMAbwBuAGYAaQBnAGMAbwBtAG0AYQBuAGQAaQBkAAAA/////xMAAABMAGEAcwB0AEMAbwBt
+AG0AYQBuAGQASQBkAEkAbgB2AGUAcgB0AAAACQAAAAAAAAA=
+</pluginBundle>
+    <pluginBundleData>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwABRgAKbG9hZEZhY3RvcnhwP0AAAHcI
+AAAAEAAAAAh0ABNMYXN0Q29tbWFuZElkSW52ZXJ0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc
++u4CAAFaAAV2YWx1ZXhwAHQAOW5ldC5kaW5nbGlzY2guYW5kcm9pZC50YXNrZXIuZXh0cmFzLlZB
+UklBQkxFX1JFUExBQ0VfS0VZU3QAQGNvbmZpZ2NvbW1hbmRpZCBjb25maWdsYXN0Y29tbWFuZCBw
+bHVnaW5pbnN0YW5jZWlkIHBsdWdpbnR5cGVpZCB0AA9jb25maWdjb21tYW5kaWRwdAAMcGx1Z2lu
+dHlwZWlkdAA1Y29tLmpvYW9tZ2NkLmF1dG92b2ljZS5pbnRlbnQuSW50ZW50Tm9Db21tYW5kc01h
+dGNoZWR0ABBwbHVnaW5pbnN0YW5jZWlkdAAkYTRiNWEwYzktNDExZC00ZjdhLWI0ZTgtOWJhMTZi
+MmQ3OTFkdAARY29uZmlnbGFzdGNvbW1hbmRwdAANTm9NYXRjaEludmVydHEAfgAEdAASTGFzdENv
+bW1hbmRJZFJlZ2V4cQB+AAR4
+</pluginBundleData>
+    <configured>true</configured>
+    <becomesTrue>true</becomesTrue>
+    <becomesFalse>false</becomesFalse>
+    <relevantVariables>"%err
+Error Code
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%errmsg
+Error Message
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%avcomms()
+All of the matched commands
+All of the matched commands","%avsource
+Source of the Voice Command. Can be normal, continuous, test or googlenow
+Source of the Voice Command. Can be normal, continuous, test or googlenow"</relevantVariables>
+  </trigger>
+  <condition type="expression">
+    <useDefaultName>true</useDefaultName>
+    <name>Expression: contains(response, "wiederholen" ) OR isEmpty(response)</name>
+    <expression>contains(response, "wiederholen" ) OR isEmpty(response)</expression>
+  </condition>
+  <condition type="wifi_connected">
+    <useDefaultName>true</useDefaultName>
+    <name>WLAN Verbunden: Home</name>
+    <all>false</all>
+    <ssidList>Home</ssidList>
+  </condition>
+  <action type="notification_status_bar">
+    <useDefaultName>true</useDefaultName>
+    <name>Benachrichtigung in Statusbar: Smarthome.py  Haus</name>
+    <notificationIcon>HOUSE</notificationIcon>
+    <title>Smarthome.py </title>
+    <message>{response}</message>
+    <sound>false</sound>
+    <vibrate>false</vibrate>
+    <flashLED>false</flashLED>
+    <flashLEDColor>#ff00ff00</flashLEDColor>
+    <flashLEDOn>500</flashLEDOn>
+    <flashLEDOff>500</flashLEDOff>
+    <flagLocalOnly>false</flagLocalOnly>
+    <accentColorEnabled>false</accentColorEnabled>
+    <accentColor>#ffff0000</accentColor>
+    <flagOngoing>false</flagOngoing>
+    <flagNoClear>false</flagNoClear>
+    <notificationIDEnabled>false</notificationIDEnabled>
+    <notificationID>1</notificationID>
+    <category>EVENT</category>
+    <priority>DEFAULT</priority>
+    <visibility>PUBLIC</visibility>
+    <messageBigEnabled>false</messageBigEnabled>
+    <messageBig></messageBig>
+    <largeIconEnabled>false</largeIconEnabled>
+    <largeIcon></largeIcon>
+  </action>
+  <action type="http_request">
+    <useDefaultName>true</useDefaultName>
+    <name>HTTP Request: GET http://smartcontrol.local:2788/{encodeURLForm(avcomms)}   speichern in response</name>
+    <url>http://smartcontrol.local:2788/{encodeURLForm(avcomms)}</url>
+    <verifyCertificates>true</verifyCertificates>
+    <basicAuthentication>false</basicAuthentication>
+    <username></username>
+    <httpMethod>GET</httpMethod>
+    <httpContentType>X_WWW_FORM_URLENCODED</httpContentType>
+    <contentType>text/plain</contentType>
+    <generalTextData></generalTextData>
+    <formFieldList>Lastname=XYZ,Firstname=ABC</formFieldList>
+    <timeout>20000</timeout>
+    <setCustomHTTPHeaders>false</setCustomHTTPHeaders>
+    <customHTTPHeaders></customHTTPHeaders>
+    <storeInVariable>true</storeInVariable>
+    <variable>response</variable>
+    <path>/storage/emulated/0/Download/file.bin</path>
+  </action>
+  <action type="speech_output">
+    <useDefaultName>true</useDefaultName>
+    <name>Sprachausgabe: Nicht mit dem WLAN Zuhause verbunden. </name>
+    <audioStreamType>MUSIC</audioStreamType>
+    <text>Nicht mit dem WLAN Zuhause verbunden. </text>
+    <locale>de_DE</locale>
+    <usePitch>true</usePitch>
+    <pitch>1.0</pitch>
+    <useSpeechRate>true</useSpeechRate>
+    <speechRate>1.0</speechRate>
+    <embeddedSynthesis>false</embeddedSynthesis>
+    <networkSynthesis>false</networkSynthesis>
+    <showStopSpeechNotification>false</showStopSpeechNotification>
+    <requestAudioFocus>false</requestAudioFocus>
+    <audioFocusType>TRANSIENT</audioFocusType>
+  </action>
+  <flow type="flow">
+    <name>Speech</name>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="70.0" y="87.5">
+      <trigger>Plugin: AutoVoice No Match  wird erfüllt</trigger>
+      <trigger>Plugin Ereignis: AutoVoice No Match </trigger>
+    </triggercontainer>
+    <conditioncontainer id="t2" x="69.999954" y="227.5">WLAN Verbunden: Home</conditioncontainer>
+    <actioncontainer id="t3" x="245.0003" y="402.50006">Sprachausgabe: Nicht mit dem WLAN Zuhause verbunden. </actioncontainer>
+    <conditioncontainer id="t4" x="69.99997" y="577.5">Expression: contains(response, "wiederholen" ) OR isEmpty(response)</conditioncontainer>
+    <actioncontainer id="t5" x="70.0" y="402.5">HTTP Request: GET http://smartcontrol.local:2788/{encodeURLForm(avcomms)}   speichern in response</actioncontainer>
+    <actioncontainer id="t6" x="70.000015" y="752.5">Benachrichtigung in Statusbar: Smarthome.py  Haus</actioncontainer>
+    <connection from="t1" to="t2" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t3" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t5" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t6" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+</data>

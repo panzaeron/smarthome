@@ -84,16 +84,17 @@ The other lists (varXYZ) are mounted together as follows:
                      [ ... ]
                    ]
 </pre>
-The return value can, for example, be a part of the item or a value that is returned.
+The return value could, for example, be a part of the item or a value that is returned.
 Is defined as the return value %status%, then the value of the item is retrieved and returned (see example temperature)
 Important: All Keywords in lowercase!
 
 Usage
 =====
 
-This speech parser plugin works with Android Smartphones with installed tasker and the AutoVoice-Plugin. 
+This speech parser plugin works with Android Smartphones with installed Tasker or Automagic and for both the Tasker-AutoVoice-Plugin. 
 
-Configuration of Tasker with AutoVoice-Plugin:
+Use at startpoint the included Tasker and Automagic configuration files (don't forget to change the smarthome.py URLs) or
+configure Tasker with the following steps:
 
 1. Add a new profile, as first context choose "Event", than "Plugin" and next "AutoVoice No Match".
 2. Enter Task choose New Task and give it a name for example speech_parser
@@ -104,7 +105,6 @@ Configuration of Tasker with AutoVoice-Plugin:
 
 That's all, use the microphone symbol to speak a command and tasker sends this as text to smarthome.py.
 
-KNXfriend at "knx-user-forum.de" wrote that it also works with Automagic.
 
 Links
 =====
@@ -112,6 +112,6 @@ Links
 * Tasker: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
 * AutoVoice: https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice
 * AutoVoice Pro: https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice.unlock
-* Automagic (alternative for Tasker with AutoVoice, thanks for the tip from KNXfriend): https://play.google.com/store/apps/details?id=ch.gridvision.ppam.androidautomagic
+* Automagic (alternative for Tasker, but needs the Tasker-AutoVoice-Plugin to work): https://play.google.com/store/apps/details?id=ch.gridvision.ppam.androidautomagic
 
 * Support Thread: http://knx-user-forum.de/forum/supportforen/smarthome-py/39857-plugin-speech-parser
